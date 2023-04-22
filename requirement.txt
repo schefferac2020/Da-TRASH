@@ -1,0 +1,10 @@
+transforms3d
+pillow
+IPython
+matplotlib
+easydict
+pyyaml
+future
+scipy
+python-pcl
+imageio
