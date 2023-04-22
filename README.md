@@ -1,4 +1,6 @@
-# Da-TRASH
+# Da-TRASH: Depth-appended Tabletop Recycling Algorithm for Segmenting Havoc
+
+[Link to Paper](./Da-TRASH_final_report.pdf)
 
 In this work, our team aims to reproduce and extend upon the paper Learning RGB-D Feature Embeddings for Unseen Object Instance Segmentation by Y. Xiang et. al. This work makes use of non-photorealistic, synthetic RGB + Depth data to produce surprisingly accurate instance segmentation masks of unknown objects. In this report, our team will validate the specific result of the paper suggesting that combining RGB and depth feature vectors elementwise is most effective for this task. Additionally, our team will attempt to extend upon this work by adapting the model to produce adequate results on simple RGB images by first predicting the corresponding depth image with another machine learning model. This extension allows this instance segmentation model to be run on simpler cameras, without depth-sensing capabilities. We show improved segmentation accuracy of our new model, Da-TRASH, on trash segmentation datasets as well as traditional tabletop datasets.
 
